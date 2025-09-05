@@ -1,9 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+// import  from './components/'
 </script>
 
 <template>
-  <HelloWorld msg="AiChefMate" />
 </template>
 
 <style scoped>

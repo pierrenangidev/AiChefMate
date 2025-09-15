@@ -14,6 +14,7 @@ defineProps({
   Test setuped !
 </template>
 
-<style scoped>
+<style lang="stylus" scoped>
 
 </style>
+

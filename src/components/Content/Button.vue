@@ -52,7 +52,7 @@
     color white
 
 .primary-btn:hover
-    background darken(primaryGreen, 5%)
+    background darken(primaryGreen, 10%)
     color white
 
 .transparent-primary-btn

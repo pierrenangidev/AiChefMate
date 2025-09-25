@@ -1,6 +1,9 @@
 <script setup>
     import Button from './components/Content/Button.vue';
     import Heading from './components/Header/Heading.vue';
+    import Navbar from './components/Header/Navbar.vue';
+    import MealTimeSection from './components/Header/MealTimeSection.vue';
+    import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -14,6 +17,7 @@
 
      Icône seule 
     <Button variant="bordered-arrow-secondary" :iconOnly="true" />-->
+
 </template>
 
 <style scoped>

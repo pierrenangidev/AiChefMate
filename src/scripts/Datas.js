@@ -7,7 +7,7 @@ export const Data = {
             logo2x: Images.navbar.logo2x,
         },
         header: {
-            title: "Elevate Your Mealtime with AI-Powered Personalization",
+            title: `Elevate Your Mealtime with <br /> AI-Powered Personalization`,
             subtitle: "Effortless Planning, Healthier Eating",
             images: {
                 bowl: Images.header.bowl,

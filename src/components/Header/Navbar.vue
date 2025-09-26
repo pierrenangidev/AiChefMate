@@ -31,19 +31,17 @@
     @import "../../stylesheets/variables.styl"
 
     .navbar
-        width 1360px
+        width 100%
         display flex
         justify-content space-between
         align-items center
-        border 1px solid red
-        box-shadow 0 2px 4px rgba(0, 0, 0, 0.1)
 
     .nav-links
         list-style none
         display flex
         gap 80px
-        margin 0
         padding 0
+        margin 0 250px 0 500px
 
         li a
             text-decoration none

@@ -61,22 +61,33 @@
     border 2px solid primaryGreen
 
 .transparent-primary-btn:hover
-    background darken(black, 5%)
+    background darken(white, 20%)
     color primaryGreen
 
 .secondary-btn
     background secondaryGreen
     color primaryGreen
 
+.secondary-btn:hover
+    background darken(secondaryGreen, 10%)
+
 .bordered-arrow-secondary-btn
     background secondaryGreen
     color primaryGreen
     border 2px solid primaryGreen
 
+.bordered-arrow-secondary-btn:hover
+    background darken(secondaryGreen, 10%)
+    color primaryGreen
+
 .no-bordered-arrow-secondary-btn
     background secondaryGreen
     color primaryGreen
     border none
+
+
+.no-bordered-arrow-secondary-btn:hover
+    background darken(secondaryGreen, 10%)
 
 // Style spécial pour masquer le texte si iconOnly
 .icon-only-btn

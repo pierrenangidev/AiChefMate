@@ -1,21 +1,32 @@
 @import "variables.styl"
 @import "mixins.styl"
 @import "reset.styl"
+
+html, 
+body,
+#app
+  overflow-x hidden
   
 body
   background wheat
   font fontSize workSans 
-  padding-top 70px
   width 100vw
-  border 1px solid red
+  display flex
+  flex-direction column
+  align-items center
+  color primaryGreen
+  background backgroundLight
+
+#app
+  padding-top 70px
+  background backgroundLight
+  width 100%
+  height 100%
   display flex
   flex-direction column
   align-items center
   justify-content space-between
   color primaryGreen
 
-#app
-  width 100%
-
-header, main, footer
+footer
   width 100%

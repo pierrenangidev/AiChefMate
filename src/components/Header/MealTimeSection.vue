@@ -1,7 +1,7 @@
 <script setup>
-    import { Images } from '../../scripts/images.js';
-    import { Data } from '../../scripts/datas.js';
-    import Button from '../Content/Button.vue';
+    import { Images } from '../../scripts/images.js'
+    import { Data } from '../../scripts/datas.js'
+    import Button from '../Content/Button.vue'
 </script>
 
 <template>
@@ -69,10 +69,6 @@
                         <p>Happy Users</p>
                     </div>
                 </div>
-
-
-
-
 
 
                 <div class="rectangle texts-img-rectangle groceries-rectangle" style="height: 461px;">
@@ -214,9 +210,9 @@
             gap 20px
 
         .numbers-users
-            width: 390px;
-            height: 200px;
-            flex-shrink: 0;
+            width 390px
+            height 200px;
+            flex-shrink 0
             text-align center
             background primaryGreen
             color secondaryGreen
@@ -224,7 +220,7 @@
             flex-direction column
             justify-content center
             align-items center
-            border-radius: 34px;
+            border-radius 34px
 
             span 
                 font h1Size syne

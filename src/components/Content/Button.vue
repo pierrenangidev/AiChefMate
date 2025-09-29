@@ -1,7 +1,7 @@
 <script setup>
     // Importation de computed pour les classes dynamiques et du composant icône
-    import { computed } from 'vue';
-    import RightArrowIcon  from '@/components/Content/Arrows/RightArrowIcon.vue';
+    import { computed } from 'vue'
+    import RightArrowIcon  from '@/components/Content/Arrows/RightArrowIcon.vue'
 
     // Définition des props pour personnaliser le bouton
     // - variant : style principal du bouton (ex: primary, secondary, etc.)

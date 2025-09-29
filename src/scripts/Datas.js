@@ -7,7 +7,7 @@ export const Data = {
             logo2x: Images.navbar.logo2x,
         },
         header: {
-            title: `Elevate Your Mealtime with <br /> AI-Powered Personalization`,
+            title: `Elevate Your Mealtime with  AI-Powered Personalization`,
             subtitle: "Effortless Planning, Healthier Eating",
             images: {
                 bowl: Images.header.bowl,
@@ -34,7 +34,7 @@ export const Data = {
             sections: {
                 demo: { 
                     title: "Demo",
-                    subtitle: "See how it works: your personalized meal planning journey",
+                    subtitle: `See how it works: your personalized meal planning journey`,
                     content: {
                         description: "Every meal is a chance to nourish your body, inspire your mind, and feed your soul.",
                         images: {
@@ -47,7 +47,7 @@ export const Data = {
                 },
                 howItWorks: { 
                     title: "How It Works",
-                    subtitle: "Step into the world of hassle-free meal planning with our easy 3-step process",
+                    subtitle: `Step into the world of hassle-free meal planning with our easy 3-step process`,
                     content: {
                         step1: {
                             numberTitle: "01",
@@ -274,7 +274,7 @@ export const Data = {
                     title: "Need Assistance?",
                     subtitle: "We’re here to help!",
                     content: {  
-                        description: "Contact our support team for any questions, feedback, or technical issues. Your satisfaction is our priority.",
+                        description: "Have questions or need help with AIChefMate? Our dedicated support team is ready to assist you. Get the answers and assistance you need to make the most of your meal planning experience.",
                         images: {
                             assistance: Images.main.needAssistance.assistance,
                             assistance2x: Images.main.needAssistance.assistance2x,

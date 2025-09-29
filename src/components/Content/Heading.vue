@@ -1,17 +1,21 @@
-<script >
-// Composant Heading : affiche un titre, un séparateur vertical et un sous-titre
-// (Pas de logique JS ici pour l’instant)
+<script setup>
+    import { Data } from '../../scripts/datas'
+
+    const props = defineProps({
+        title: String,
+        subTitle: String
+    });
 </script>
 
 <template>
     <!-- Bloc principal du header avec titre, séparateur et sous-titre -->
     <div class="heading">
         <h2>
-            Title
+            {{ props.title }}
         </h2>
         <div class="divider"></div>
         <p>
-            Subtitle
+            {{ props.subTitle }}
         </p>
     </div>
 </template>
@@ -22,17 +26,13 @@
 
 // Bloc principal du header
 .heading
-    width 654px
-    border 1px solid blue 
-    background yellow
     display flex
     align-items center
 
 // Style du titre
 .heading h2
-    syne // (supposé être une police, à vérifier)
-    font-weight 500
-    font-size 55px
+    font h2Size syne    // (supposé être une police, à vérifier)
+    font-weight weight500
 
 // Séparateur vertical entre le titre et le sous-titre
 .divider
@@ -40,6 +40,9 @@
     height 100px
     border 1px solid primaryGreen
     margin 0 52px
-    rotate 35deg
+    transform rotate(35deg)
+
+.heading p
+    width 435px
 </style>
 

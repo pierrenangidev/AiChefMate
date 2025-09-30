@@ -42,9 +42,12 @@
             </div>
         </div>
         <div class="side-frame">
-            <p class="frame-description">
-                {{ props.description }}
-            </p>
+            <blockquote class="frame-description">
+                <p>
+                    {{ props.description }}
+                </p>
+            </blockquote>
+            
 
             <Button label="Get Support" variant="secondary" />
         </div>

@@ -1,26 +1,26 @@
 // Navbar images
-import Navlogo from '@/assets/images/Navbar/AichefMateLogo1x.png'
-import Navlogo2x from '@/assets/images/Navbar/AichefMateLogo2x.png'
+import Navlogo from '@/assets/images/navbar/AichefMateLogo1x.png'
+import Navlogo2x from '@/assets/images/navbar/AichefMateLogo2x.png'
 
 // Header images
-import bowl from '@/assets/images/Header/bowl.webp'
-import bowl2x from '@/assets/images/Header/bowl2x.webp'
-import groceryBag from '@/assets/images/Header/grocerybag.webp'
-import groceryBag2x from '@/assets/images/Header/grocerybag2x.webp'
-import natureHand from '@/assets/images/Header/naturehand.webp'
-import natureHand2x from '@/assets/images/Header/naturehand2x.webp'
-import vegetables from '@/assets/images/Header/vegetables.webp'
-import vegetables2x from '@/assets/images/Header/vegetables2x.webp'
+import bowl from '@/assets/images/header/bowl.webp'
+import bowl2x from '@/assets/images/header/bowl2x.webp'
+import groceryBag from '@/assets/images/header/grocerybag.webp'
+import groceryBag2x from '@/assets/images/header/grocerybag2x.webp'
+import natureHand from '@/assets/images/header/naturehand.webp'
+import natureHand2x from '@/assets/images/header/naturehand2x.webp'
+import vegetables from '@/assets/images/header/vegetables.webp'
+import vegetables2x from '@/assets/images/header/vegetables2x.webp'
 
 // Header Icons
-import bread from '@/assets/images/Header/icons/bread.png'
-import bread2x from '@/assets/images/Header/icons/bread2x.png'
-import carrot from '@/assets/images/Header/icons/carrot.png'
-import carrot2x from '@/assets/images/Header/icons/carrot2x.png'
-import cart from '@/assets/images/Header/icons/cart.png'
-import cart2x from '@/assets/images/Header/icons/cart2x.png'
-import cherry from '@/assets/images/Header/icons/cherry.png'
-import cherry2x from '@/assets/images/Header/icons/cherry2x.png'
+import bread from '@/assets/images/header/icons/bread.png'
+import bread2x from '@/assets/images/header/icons/bread2x.png'
+import carrot from '@/assets/images/header/icons/carrot.png'
+import carrot2x from '@/assets/images/header/icons/carrot2x.png'
+import cart from '@/assets/images/header/icons/cart.png'
+import cart2x from '@/assets/images/header/icons/cart2x.png'
+import cherry from '@/assets/images/header/icons/cherry.png'
+import cherry2x from '@/assets/images/header/icons/cherry2x.png'
 
 // Main images
 import demo from '@/assets/images/main/demo/demo.webp'
@@ -88,7 +88,7 @@ export const Images = {
     logo2x: Navlogo2x,
   },
 
-  // Header
+  // header
   header: {
     bowl,
     bowl2x,

@@ -1,6 +1,6 @@
 <script setup>
-    import Navbar from './Header/Navbar.vue'
-    import MealTimeSection from './Header/MealTimeSection.vue'
+    import Navbar from './header/Navbar.vue'
+    import MealTimeSection from './header/MealTimeSection.vue'
 </script>
 
 <template>

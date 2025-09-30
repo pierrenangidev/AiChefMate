@@ -1,7 +1,7 @@
 <script setup>
     import { Images } from '../../scripts/images.js'
     import { Data } from '../../scripts/datas.js'
-    import Button from '../Content/Button.vue'
+    import Button from '../content/Button.vue'
 </script>
 
 <template>

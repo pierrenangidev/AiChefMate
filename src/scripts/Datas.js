@@ -213,18 +213,21 @@ export const Data = {
                     title: "Healthy Insights",
                     subtitle: "Latest News, Expert Blogs, and Nutritional Learning",
                     content: {
-                        articles: [
+                        blogs: [
                             {
+                                id: 0,
                                 title: "Mastering Meal Prep: Time-Saving Tips for Busy Weekdays",
                                 image: Images.main.healthyInsights.mealprep,
                                 image2x: Images.main.healthyInsights.mealprep2x,
                             },
                             {
+                                id: 1,
                                 title: "The Power of Plant-Based: Benefits Beyond the Plate",
                                 image: Images.main.healthyInsights.plantBased,
                                 image2x: Images.main.healthyInsights.plantBased2x,
                             },
                             {
+                                id: 2,
                                 title: "Balancing Nutrients: A Guide to a Well-Rounded Diet",
                                 image: Images.main.healthyInsights.nutrients,
                                 image2x: Images.main.healthyInsights.nutrients2x,

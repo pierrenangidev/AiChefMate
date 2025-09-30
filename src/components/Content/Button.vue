@@ -1,19 +1,23 @@
 <script setup>
     // Importation de computed pour les classes dynamiques et du composant icône
     import { computed } from 'vue'
-    import RightArrowIcon  from '@/components/Content/Arrows/RightArrowIcon.vue'
+    
+    // Arrows Icons
+    import ArrowsIcon from './ArrowsIcon.vue'
 
     // Définition des props pour personnaliser le bouton
     // - variant : style principal du bouton (ex: primary, secondary, etc.)
     // - icon : affiche l'icône à droite du texte si true
     // - iconOnly : affiche uniquement l'icône, masque le texte si true
     // - label : texte du bouton
+    // - iconType : le type d'icône
     const props = defineProps({
         variant: { type: String, default: 'primary' },
         icon: { type: Boolean, default: false },
         iconOnly: { type: Boolean, default: false },
-        label: { type: String, default: 'Button' }
-    });
+        label: { type: String, default: 'Button' },
+        iconType: { type: String, default: 'right'}
+    })
 
     // Génère dynamiquement les classes CSS selon les props
     // Toujours 'btn', puis la classe de variante, puis 'icon-only-btn' si iconOnly
@@ -30,7 +34,7 @@
         <!-- Affiche le texte sauf si iconOnly -->
         <span v-if="!props.iconOnly">{{ props.label }}</span>
         <!-- Affiche l'icône si icon ou iconOnly est vrai -->
-        <RightArrowIcon v-if="props.icon || props.iconOnly" />
+        <ArrowsIcon v-if="props.icon || props.iconOnly" :direction="props.iconType" />
     </button>
 </template>
 
@@ -88,6 +92,8 @@
 
 .no-bordered-arrow-secondary-btn:hover
     background darken(secondaryGreen, 10%)
+
+.
 
 // Style spécial pour masquer le texte si iconOnly
 .icon-only-btn

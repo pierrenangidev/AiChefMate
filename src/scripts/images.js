@@ -53,8 +53,8 @@ import sarah_j from '@/assets/images/main/testimonials/sarah_j.png'
 import sarah_j2x from '@/assets/images/main/testimonials/sarah_j2x.png'
 import rebecca_s from '@/assets/images/main/testimonials/rebecca_s.png'
 import rebecca_s2x from '@/assets/images/main/testimonials/rebecca_s2x.png'
-import feddbackIcon from '@/assets/images/main/testimonials/feedbackIcon.png'
-import feddbackIconAlt from '@/assets/images/main/testimonials/feedbackIconAlt.png'
+import feedbackIcon from '@/assets/images/main/testimonials/feedbackIcon.png'
+import feedbackIconAlt from '@/assets/images/main/testimonials/feedbackIconAlt.png'
 
 import pricing from '@/assets/images/main/pricing/pricing.webp'
 import pricing2x from '@/assets/images/main/pricing/pricing2x.webp'
@@ -146,8 +146,8 @@ export const Images = {
       sarah_j2x,
       rebecca_s,
       rebecca_s2x,
-      feddbackIcon,
-      feddbackIconAlt,
+      feedbackIcon,
+      feedbackIconAlt,
     },
     pricing: {
       pricing,

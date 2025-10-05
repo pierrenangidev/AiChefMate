@@ -159,8 +159,9 @@ export const Data = {
                             mark_t2x: Images.main.testimonials.mark_t2x,
                             sarah_j2x: Images.main.testimonials.sarah_j2x,
                             rebecca_s2x: Images.main.testimonials.rebecca_s2x,
-                            feddbackIcon: Images.main.testimonials.feddbackIcon,
-                            feddbackIconAlt: Images.main.testimonials.feddbackIconAlt,
+                            feedbackIcon: Images.main.testimonials.feedbackIcon,
+                            feedbackIconAlt: Images.main.testimonials.feedbackIconAlt,
+                            feedbackIconAlt: Images.main.testimonials.feedbackIconAlt,
                         }
                     }
                 },

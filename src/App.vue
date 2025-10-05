@@ -1,4 +1,6 @@
 <script setup>
+import TestimonialsSection from './components/content/TestimonialsSection.vue';
+
     // import { Data } from './scripts/datas.js'
     // import { Images } from './scripts/images.js'
     // import Button from './components/Content/Button.vue'

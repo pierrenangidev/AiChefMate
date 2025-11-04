@@ -1,25 +1,19 @@
 <script setup>
-import TestimonialsSection from './components/content/TestimonialsSection.vue';
-
-    // import { Data } from './scripts/datas.js'
-    // import { Images } from './scripts/images.js'
-    // import Button from './components/Content/Button.vue'
-    // import HealthyInsightsSection from './components/Content/HealthyInsightsSection.vue';
-    // import DemoSection from './components/Content/DemoSection.vue';
+import HeaderSection from "./components/HeaderSection.vue";
+import DemoSection from "./components/content/DemoSection.vue";
+import AssistanceSection from "./components/content/AssistanceSection.vue";
+import HealthyInsightsSection from "./components/content/HealthyInsightsSection.vue";
+import TestimonialsSection from "./components/content/TestimonialsSection.vue";
+import FooterSection from "./components/FooterSection.vue";
 </script>
 
 <template>
-    <!-- <DemoSection /> -->
-    <!-- <AssistanceSection /> -->
-    <!-- <Frame 
-        :frame-image="Images.main.needAssistance.assistance"
-        :frame-image2x="Images.main.needAssistance.assistance2x"
-        :description="Data.content.main.sections.needAssistance.content.description"
-    /> -->
-    <!-- <Button icon-only="true" icon-type="right"/> -->
-    <!-- <HealthyInsightsSection /> -->
+  <HeaderSection />
+  <DemoSection />
+  <TestimonialsSection />
+  <HealthyInsightsSection />
+  <AssistanceSection />
+  <FooterSection />
 </template>
 
-<style lang="stylus">
-    
-</style>
+<style lang="stylus"></style>

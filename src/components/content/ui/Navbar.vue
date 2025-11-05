@@ -1,7 +1,7 @@
 <script setup>
 // import { Images } from "../../scripts/images.js"
-import { Data } from "../../scripts/datas.js";
-import Button from "../content/Button.vue";
+import { Data } from "../../../scripts/datas.js";
+import Button from "../ui/Button.vue";
 
 const Images = Data.content.navbar;
 </script>
@@ -30,7 +30,7 @@ const Images = Data.content.navbar;
 </template>
 
 <style lang="stylus" scoped>
-@import "../../stylesheets/variables.styl"
+@import "../../../stylesheets/variables.styl"
 
 .navbar
     width 100%

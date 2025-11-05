@@ -1,5 +1,5 @@
 <script setup>
-import Button from "../Button.vue";
+import Button from "../../ui/Button.vue";
 
 const props = defineProps({
   blogImage: String,
@@ -17,7 +17,7 @@ const props = defineProps({
 </template>
 
 <style lang="stylus" scoped>
-@import '../../../stylesheets/variables.styl'
+@import '../../../../stylesheets/variables.styl'
 
 .blog
     background-color #ffffff

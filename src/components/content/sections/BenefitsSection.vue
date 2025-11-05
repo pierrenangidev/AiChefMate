@@ -1,8 +1,8 @@
 <script setup>
-import Heading from "./Heading.vue";
-import { Data } from "../../scripts/datas";
+import Heading from "../ui/Heading.vue";
+import { Data } from "../../../scripts/datas.js";
 
-import BenefitsCard from "./benefits/BenefitsCard.vue";
+import BenefitsCard from "../specific/benefits/BenefitsCard.vue";
 
 // Raccourci pour un accès plus propre aux données dans le template
 const content = Data.content.main.sections.benefits.content;
@@ -60,7 +60,7 @@ const content = Data.content.main.sections.benefits.content;
 </template>
 
 <style lang="stylus">
-@import "../../stylesheets/variables.styl"
+@import "../../../stylesheets/variables.styl"
 
 .benefits-container
     display flex

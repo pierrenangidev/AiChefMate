@@ -1,6 +1,6 @@
 <script setup>
 // import { Images } from "../scripts/images.js";
-import { Data } from "../scripts/datas.js";
+import { Data } from "../../../scripts/datas.js";
 
 const Images = Data.content.footer.content;
 </script>
@@ -81,7 +81,7 @@ const Images = Data.content.footer.content;
 </template>
 
 <style lang="stylus" scoped>
-@import "../stylesheets/variables.styl"
+@import "../../../stylesheets/variables.styl"
 
 footer
     background-color primaryGreen

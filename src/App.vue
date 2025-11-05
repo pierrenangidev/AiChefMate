@@ -1,21 +1,21 @@
 <script setup>
-import HeaderSection from "./components/HeaderSection.vue";
-import DemoSection from "./components/content/DemoSection.vue";
-import AssistanceSection from "./components/content/AssistanceSection.vue";
-import HealthyInsightsSection from "./components/content/HealthyInsightsSection.vue";
-import TestimonialsSection from "./components/content/TestimonialsSection.vue";
-import FooterSection from "./components/FooterSection.vue";
-import BenefitsSection from "./components/content/BenefitsSection.vue";
+import Header from "./components/content/structure/Header.vue";
+import DemoSection from "./components/content/sections/DemoSection.vue";
+import AssistanceSection from "./components/content/sections/AssistanceSection.vue";
+import HealthyInsightsSection from "./components/content/sections/HealthyInsightsSection.vue";
+import TestimonialsSection from "./components/content/sections/TestimonialsSection.vue";
+import Footer from "./components/content/structure/Footer.vue";
+import BenefitsSection from "./components/content/sections/BenefitsSection.vue";
 </script>
 
 <template>
-  <HeaderSection />
+  <Header />
   <DemoSection />
   <TestimonialsSection />
   <HealthyInsightsSection />
   <AssistanceSection />
   <BenefitsSection />
-  <FooterSection />
+  <Footer />
 </template>
 
 <style lang="stylus"></style>

@@ -1,9 +1,9 @@
 <script setup>
-import { Data } from "../../scripts/datas.js";
+import { Data } from "../../../scripts/datas.js";
 
-import Heading from "../content/Heading.vue";
+import Heading from "../ui/Heading.vue";
 
-import Testimonial from "./testimonials/Testimonial.vue";
+import Testimonial from "../specific/testimonials/Testimonial.vue";
 
 // Raccourci pour un accès plus propre aux données dans le template
 const heading = Data.content.main.sections.testimonials;
@@ -55,7 +55,7 @@ const content = Data.content.main.sections.testimonials.content;
 </template>
 
 <style lang="stylus">
-@import '../../stylesheets/variables.styl';
+@import '../../../stylesheets/variables.styl';
 
 .testimonials-container
     display flex

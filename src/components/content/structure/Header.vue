@@ -1,6 +1,6 @@
 <script setup>
-import Navbar from "./header/Navbar.vue";
-import MealTimeSection from "./header/MealTimeSection.vue";
+import Navbar from "../ui/Navbar.vue";
+import MealTimeSection from "../specific/header/MealTimeSection.vue";
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import MealTimeSection from "./header/MealTimeSection.vue";
 </template>
 
 <style lang="stylus" scoped>
-@import '../stylesheets/variables.styl'
+@import '../../../stylesheets/variables.styl'
 
 header
     width 100%

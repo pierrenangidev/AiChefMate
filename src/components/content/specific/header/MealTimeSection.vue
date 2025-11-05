@@ -1,7 +1,7 @@
 <script setup>
 // On importe uniquement 'Data' qui centralise tout le contenu.
-import { Data } from "../../scripts/datas.js";
-import Button from "../content/Button.vue";
+import { Data } from "../../../../scripts/datas.js";
+import Button from "../../ui/Button.vue";
 
 // On crée un alias pour les images du header pour garder le template fonctionnel sans le modifier.
 const Images = { header: Data.content.header.images };
@@ -108,7 +108,7 @@ const Images = { header: Data.content.header.images };
 </template>
 
 <style lang="stylus" scoped>
-@import "../../stylesheets/variables.styl"
+@import "../../../../stylesheets/variables.styl"
 
 .meal-time-section
     width 100%

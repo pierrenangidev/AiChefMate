@@ -1,7 +1,7 @@
 <script setup>
-import { Data } from "../../scripts/datas.js";
-import Heading from "./Heading.vue";
-import Blog from "./heathlyInsights/Blog.vue";
+import { Data } from "../../../scripts/datas.js";
+import Heading from "../ui/Heading.vue";
+import Blog from "../specific/heathlyInsights/Blog.vue";
 
 // Raccourci pour un accès plus propre aux données dans le template
 const heading = Data.content.main.sections.healthyInsights;
@@ -27,7 +27,7 @@ const healthyInsights = Data.content.main.sections.healthyInsights;
 </template>
 
 <style lang="stylus">
-@import '../../stylesheets/variables.styl'
+@import '../../../stylesheets/variables.styl'
 
 .hi-container
     background-color backgroundLight

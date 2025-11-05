@@ -150,7 +150,7 @@ const roundImageStyle = computed(() => {
 </template>
 
 <style lang="stylus" scoped>
-@import "../../../stylesheets/variables.styl"
+@import "../../../../stylesheets/variables.styl"
 
 // ==========================================================================
 // STYLES DE BASE

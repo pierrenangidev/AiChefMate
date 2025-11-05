@@ -1,8 +1,8 @@
 <script setup>
 // On importe uniquement 'Data' qui centralise tout le contenu.
-import { Data } from "../../scripts/datas.js";
-import Heading from "./Heading.vue";
-import Frame from "./Frame.vue";
+import { Data } from "../../../scripts/datas.js";
+import Heading from "../ui/Heading.vue";
+import Frame from "../ui/Frame.vue";
 
 // On crée un alias pour les images pour garder le template fonctionnel sans le modifier.
 const Images = {
@@ -25,7 +25,7 @@ const Images = {
 </template>
 
 <style lang="stylus">
-@import "../../stylesheets/variables.styl"
+@import "../../../stylesheets/variables.styl"
 
 .demo-container
     align-self flex-end

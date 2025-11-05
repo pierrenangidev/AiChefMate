@@ -1,26 +1,25 @@
 <script setup>
-
-    const props = defineProps({
-        title: String,
-        subTitle: String
-    });
+const props = defineProps({
+  title: String,
+  subTitle: String,
+});
 </script>
 
 <template>
-    <!-- Bloc principal du header avec titre, séparateur et sous-titre -->
-    <div class="heading">
-        <h2>
-            {{ props.title }}
-        </h2>
-        <div class="divider"></div>
-        <p>
-            {{ props.subTitle }}
-        </p>
-    </div>
+  <!-- Bloc principal du header avec titre, séparateur et sous-titre -->
+  <div class="heading">
+    <h2>
+      {{ props.title }}
+    </h2>
+    <div class="divider"></div>
+    <p>
+      {{ props.subTitle }}
+    </p>
+  </div>
 </template>
 
 <style lang="stylus" scoped>
-@import "../../stylesheets/variables.styl"
+@import "../../../stylesheets/variables.styl"
 // Import des variables de couleurs et polices
 
 // Bloc principal du header
@@ -44,4 +43,3 @@
 .heading p
     width 435px
 </style>
-

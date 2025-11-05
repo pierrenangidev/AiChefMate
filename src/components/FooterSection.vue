@@ -1,5 +1,8 @@
 <script setup>
-import { Images } from "../scripts/images.js";
+// import { Images } from "../scripts/images.js";
+import { Data } from "../scripts/datas.js";
+
+const Images = Data.content.footer.content;
 </script>
 
 <template>
@@ -8,8 +11,8 @@ import { Images } from "../scripts/images.js";
       <div class="footer-nav-copyright">
         <nav class="footer-navbar">
           <img
-            :src="Images.footer.altLogo"
-            :srcset="`${Images.footer.altLogo} 1x, ${Images.footer.altLogo2x} 2x`"
+            :src="Images.altLogo"
+            :srcset="`${Images.altLogo} 1x, ${Images.altLogo2x} 2x`"
             alt="AiChefMate Logo Light green"
           />
 
@@ -32,9 +35,9 @@ import { Images } from "../scripts/images.js";
       </div>
 
       <p class="footer-description">
-        Join us on our journey to make meal planning simple and <br />joyful.
-        Connect with us on social media, explore our FAQs for <br />quick
-        answers, or drop us a line anytime.
+        Join us on our journey to make meal planning simple and joyful. Connect
+        with us on social media, explore our FAQs for quick answers, or drop us
+        a line anytime.
       </p>
 
       <div class="socials">
@@ -44,8 +47,8 @@ import { Images } from "../scripts/images.js";
           rel="noopener noreferrer"
         >
           <img
-            :src="Images.footer.socials.facebook.default"
-            :srcset="`${Images.footer.socials.facebook.default} 1x, ${Images.footer.socials.facebook.default2x} 2x`"
+            :src="Images.socials.facebook"
+            :srcset="`${Images.socials.facebook} 1x, ${Images.socials.facebook2x} 2x`"
             alt="Facebook white light logo"
           />
         </a>
@@ -55,8 +58,8 @@ import { Images } from "../scripts/images.js";
           rel="noopener noreferrer"
         >
           <img
-            :src="Images.footer.socials.twitter.default"
-            :srcset="`${Images.footer.socials.twitter.default} 1x, ${Images.footer.socials.twitter.default2x} 2x`"
+            :src="Images.socials.twitter"
+            :srcset="`${Images.socials.twitter} 1x, ${Images.socials.twitter2x} 2x`"
             alt="Twitter white light logo"
           />
         </a>
@@ -68,8 +71,8 @@ import { Images } from "../scripts/images.js";
         </a>
 
         <img
-          :src="Images.footer.socials.tiktok.default"
-          :srcset="`${Images.footer.socials.tiktok.default} 1x, ${Images.footer.socials.tiktok.default2x} 2x`"
+          :src="Images.socials.tiktok"
+          :srcset="`${Images.socials.tiktok} 1x, ${Images.socials.tiktok2x} 2x`"
           alt="TikTok white light logo"
         />
       </div>
@@ -120,9 +123,11 @@ footer
             text-decoration underline
 
     .footer-copyright
+        white-space nowrap
         color backgroundLight !important
 
     .footer-description
+        width 663px
         margin 0 80px 0 99px
         color secondaryGreen
 

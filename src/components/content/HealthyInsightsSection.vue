@@ -2,19 +2,19 @@
 import { Data } from "../../scripts/datas.js";
 import Heading from "./Heading.vue";
 import Blog from "./heathlyInsights/Blog.vue";
+
+// Raccourci pour un accès plus propre aux données dans le template
+const heading = Data.content.main.sections.healthyInsights;
+const healthyInsights = Data.content.main.sections.healthyInsights;
 </script>
 
 <template>
   <div class="hi-container">
     <div class="hi-content">
-      <Heading
-        :title="Data.content.main.sections.healthyInsights.title"
-        :sub-title="Data.content.main.sections.healthyInsights.subtitle"
-      />
+      <Heading :title="heading.title" :sub-title="heading.subtitle" />
       <div class="blogs-container">
         <Blog
-          v-for="blog in Data.content.main.sections.healthyInsights.content
-            .blogs"
+          v-for="blog in healthyInsights.content.blogs"
           :key="blog.id"
           :blog-image="blog.image"
           :blog-image2x="blog.image2x"

@@ -5,6 +5,7 @@ import AssistanceSection from "./components/content/AssistanceSection.vue";
 import HealthyInsightsSection from "./components/content/HealthyInsightsSection.vue";
 import TestimonialsSection from "./components/content/TestimonialsSection.vue";
 import FooterSection from "./components/FooterSection.vue";
+import BenefitsSection from "./components/content/BenefitsSection.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import FooterSection from "./components/FooterSection.vue";
   <TestimonialsSection />
   <HealthyInsightsSection />
   <AssistanceSection />
+  <BenefitsSection />
   <FooterSection />
 </template>
 

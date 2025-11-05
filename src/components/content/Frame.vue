@@ -1,9 +1,11 @@
 <script setup>
     import { computed } from 'vue'
-    import { Images } from '../../scripts/images'
+    // On importe uniquement 'Data' qui centralise tout le contenu.
+    import { Data } from '../../scripts/datas.js'
     import Button from './Button.vue'
-    // import { Data } from '../../scripts/datas'
 
+    // On crée un alias pour les images pour garder le template fonctionnel sans le modifier.
+    const Images = { main: { demo: Data.content.main.sections.demo.content.images } };
     const props = defineProps({
         frameImage: {type: String, required: true },
         frameImage2x: {type: String, required: false },

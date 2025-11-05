@@ -1,34 +1,18 @@
 import { Images } from "./images.js";
 
+/**
+ * @file datas.js
+ * @description Centralise tout le contenu textuel et les références d'images de l'application.
+ * Cette structure permet de gérer facilement le contenu du site depuis un seul endroit.
+ */
+
 export const Data = {
   content: {
-    navbar: {
-      logo: Images.navbar.logo,
-      logo2x: Images.navbar.logo2x,
-    },
+    navbar: Images.navbar,
     header: {
       title: `Elevate Your Mealtime with  AI-Powered Personalization`,
       subtitle: "Effortless Planning, Healthier Eating",
-      images: {
-        bowl: Images.header.bowl,
-        bowl2x: Images.header.bowl2x,
-        groceryBag: Images.header.groceryBag,
-        groceryBag2x: Images.header.groceryBag2x,
-        natureHand: Images.header.natureHand,
-        natureHand2x: Images.header.natureHand2x,
-        vegetables: Images.header.vegetables,
-        vegetables2x: Images.header.vegetables2x,
-        icons: {
-          bread: Images.header.icons.bread,
-          bread2x: Images.header.icons.bread2x,
-          carrot: Images.header.icons.carrot,
-          carrot2x: Images.header.icons.carrot2x,
-          cart: Images.header.icons.cart,
-          cart2x: Images.header.icons.cart2x,
-          cherry: Images.header.icons.cherry,
-          cherry2x: Images.header.icons.cherry2x,
-        },
-      },
+      images: Images.header,
     },
     main: {
       sections: {
@@ -38,12 +22,7 @@ export const Data = {
           content: {
             description:
               "Every meal is a chance to nourish your body, inspire your mind, and feed your soul.",
-            images: {
-              demo: Images.main.demo.demo,
-              demo2x: Images.main.demo.demo2x,
-              player: Images.main.demo.player,
-              player2x: Images.main.demo.player2x,
-            },
+            images: Images.main.demo,
           },
         },
         howItWorks: {
@@ -68,11 +47,7 @@ export const Data = {
               content:
                 "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.",
             },
-            images: {
-              bigBowl: Images.main.howItWorks.bigBowl,
-              salad: Images.main.howItWorks.salad,
-              womaneat: Images.main.howItWorks.womaneat,
-            },
+            images: Images.main.howItWorks,
           },
         },
         benefits: {
@@ -106,16 +81,11 @@ export const Data = {
                 "Join a community of like-minded individuals, share experiences, recipes, and tips, and get motivated on your journey to healthier eating.",
             },
             benefit6: {
-              title: "Healthier Eating",
+              title: "Healthier Eating Habits",
               description:
                 "Easily adopt a healthier lifestyle with nutrient-rich meal plans and educational content on nutrition and wellness.",
             },
-            images: {
-              groceryBag: Images.main.benefits.groceryBag,
-              groceryBag2x: Images.main.benefits.groceryBag2x,
-              vegetablesBag: Images.main.benefits.vegetablesBag,
-              vegetablesBag2x: Images.main.benefits.vegetablesBag2x,
-            },
+            images: Images.main.benefits,
           },
         },
         recipes: {
@@ -132,14 +102,7 @@ export const Data = {
             lentilKaleSalad: {
               title: "Mediterranean Lentil and Kale Salad",
             },
-            images: {
-              quinoa: Images.main.recipes.quinoa,
-              quinoa2x: Images.main.recipes.quinoa2x,
-              herb: Images.main.recipes.herb,
-              herb2x: Images.main.recipes.herb2x,
-              lentil: Images.main.recipes.lentil,
-              lentil2x: Images.main.recipes.lentil2x,
-            },
+            images: Images.main.recipes,
           },
         },
         testimonials: {
@@ -167,19 +130,7 @@ export const Data = {
               feedback:
                 "Switching to AIChefMate has been a revelation for my meal prep routine. The AI-generated plans are spot-on with my tastes and nutritional needs, making healthy eating effortless and enjoyable.",
             },
-            images: {
-              emily_r: Images.main.testimonials.emily_r,
-              mark_t: Images.main.testimonials.mark_t,
-              sarah_j: Images.main.testimonials.sarah_j,
-              rebecca_s: Images.main.testimonials.rebecca_s,
-              emily_r2x: Images.main.testimonials.emily_r2x,
-              mark_t2x: Images.main.testimonials.mark_t2x,
-              sarah_j2x: Images.main.testimonials.sarah_j2x,
-              rebecca_s2x: Images.main.testimonials.rebecca_s2x,
-              feedbackIcon: Images.main.testimonials.feedbackIcon,
-              feedbackIconAlt: Images.main.testimonials.feedbackIconAlt,
-              feedbackIconAlt: Images.main.testimonials.feedbackIconAlt,
-            },
+            images: Images.main.testimonials,
           },
         },
         pricing: {
@@ -224,10 +175,7 @@ export const Data = {
                 "Users seeking a premium culinary experience with added personalization and expert guidance.",
               //textButton: "Get Premium"
             },
-            images: {
-              pricing: Images.main.pricing.pricing,
-              pricing2x: Images.main.pricing.pricing2x,
-            },
+            images: Images.main.pricing,
           },
         },
         healthyInsights: {
@@ -314,10 +262,7 @@ export const Data = {
           content: {
             description:
               "Have questions or need help with AIChefMate? Our dedicated support team is ready to assist you. Get the answers and assistance you need to make the most of your meal planning experience.",
-            images: {
-              assistance: Images.main.needAssistance.assistance,
-              assistance2x: Images.main.needAssistance.assistance2x,
-            },
+            images: Images.main.needAssistance,
           },
         },
       },
@@ -328,25 +273,8 @@ export const Data = {
           "Join us on our journey to make meal planning simple and joyful. Connect with us on social media, explore our FAQs for quick answers, or drop us a line anytime.",
         copyright:
           "© 2064 AIChefMate. All rights reserved. | Privacy Policy | Terms of Use",
-        links: [
-          {
-            facebook: Images.footer.facebook,
-            facebook2x: Images.footer.facebook2x,
-            url: "https://facebook.com",
-          },
-          {
-            twitter: Images.footer.twitter,
-            twitter2x: Images.footer.twitter2x,
-            url: "https://twitter.com",
-          },
-          {
-            tiktok: Images.footer.tiktok,
-            tiktok2x: Images.footer.tiktok2x,
-            url: "https://tiktok.com",
-          },
-        ],
-        altLogo: Images.footer.altLogo,
-        altLogo2x: Images.footer.altLogo2x,
+        // L'objet 'footer' de 'Images' contient déjà 'altLogo', 'altLogo2x' et 'socials'.
+        ...Images.footer,
       },
     },
   },

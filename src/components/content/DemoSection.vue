@@ -1,8 +1,13 @@
 <script setup>
-import { Images } from "../../scripts/images.js";
+// On importe uniquement 'Data' qui centralise tout le contenu.
 import { Data } from "../../scripts/datas.js";
 import Heading from "./Heading.vue";
 import Frame from "./Frame.vue";
+
+// On crée un alias pour les images pour garder le template fonctionnel sans le modifier.
+const Images = {
+  main: { demo: Data.content.main.sections.demo.content.images },
+};
 </script>
 
 <template>
